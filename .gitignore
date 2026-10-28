@@ -1,0 +1,34 @@
+# Ignore colcon build artifacts inside workspace
+/build/
+/install/
+/log/
+
+# ROS Runtime Dependencies
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+core
+core.*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
